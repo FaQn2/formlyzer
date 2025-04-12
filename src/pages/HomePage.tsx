@@ -1,4 +1,5 @@
-import { supabase } from '../app/supabaseClient';
+
+import { supabase } from '../services/supabaseClient';
 import { useEffect } from 'react';
 
 const HomePage = () => {
